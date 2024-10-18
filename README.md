@@ -10,6 +10,10 @@ This resolves the need to manually create aliases across different hosts. Just p
 - If any errors occur during execution, they are printed to the standard error stream.
 
 ## Usage
+Make sure to update the username in the source on line 7:
+```C
+const char *username = "<username>";
+```
 To compile the program, use the following command:
 ```bash
 gcc -o sshuc sshuc.c
